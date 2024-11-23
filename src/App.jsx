@@ -7,7 +7,7 @@ const App = () => {
   return (
     <ReactLenis root>
       <main className="relative w-full bg-WHITE min-h-screen overflow-hidden ">
-        <div className="w-full h-screen fixed z-5 overflow-hidden lg:block">
+        <div className="w-full h-screen fixed z-30 overflow-hidden lg:block">
           <Canvas>
             <Experience />
           </Canvas>

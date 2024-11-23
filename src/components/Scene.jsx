@@ -22,9 +22,9 @@ export function Scene(props) {
   useLayoutEffect(() => {
     new ScrollTrigger({});
     tl.to(scene.current?.position, {
-      x: screen > 1000 ? -2.1 : 0,
-      y: screen > 1000 ? .1 : 0,
-      z: screen > 1000 ? 2.3 : 0,
+      x: screen > 1000 ? -2.1 : -0.5,
+      y: screen > 1000 ? 0.1 : 0,
+      z: screen > 1000 ? 2.3 : 2,
       ease: "power1.out",
       scrollTrigger: {
         trigger: "#second_section",
@@ -33,23 +33,99 @@ export function Scene(props) {
         scrub: true,
         immediateRender: false,
       },
-    }).to(scene.current?.rotation, {
-      x: screen > 1000 ? -.1 : 0,
-      y: screen > 1000 ? 2.0 : 0,
-      z:screen> 1000 ? 0 : 0,
-      ease: "power1.out",
-      scrollTrigger: {
-        trigger: "#second_section",
-        start: "top bottom",
-        end: "top top",
-        scrub: true,
-        immediateRender: false,
-      },
-    });
+    })
+      .to(scene.current?.rotation, {
+        x: screen > 1000 ? -0.2 : -0.2,
+        y: screen > 1000 ? 2.0 : 2.0,
+        z: screen > 1000 ? 0.1 : 0.1,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#second_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      })
+      .to(scene.current?.position, {
+        x: screen > 1000 ? -1.3 : -3,
+        y: screen > 1000 ? -0.02 : -0.1,
+        z: screen > 1000 ? 2.4 : -0.2,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#third_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      })
+      .to(scene.current?.rotation, {
+        x: screen > 1000 ? 0.4 : 0.4,
+        y: screen > 1000 ? 1.5 : 1.5,
+        z: screen > 1000 ? -0.4 : -0.4,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#third_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      })
+      .to(scene.current?.position, {
+        x: screen > 1000 ? -0.2 : 0,
+        y: screen > 1000 ? 0.2 : 0,
+        z: screen > 1000 ? -0.3 : 0,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#four_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      })
+      .to(scene.current?.rotation, {
+        x: screen > 1000 ? 0.2 : 0,
+        y: screen > 1000 ? 0.1 : 0,
+        z: screen > 1000 ? 0.1 : 0,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#four_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      })
+      .to(scene.current?.position, {
+        x: screen > 1000 ? -0.2 :  -3,
+        y: screen > 1000 ? 0 :  -0.7,
+        z: screen > 1000 ? 0.2 :  -0.2,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#five_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      })
+      .to(scene.current?.rotation, {
+        x: screen > 1000 ? 0.32 : 0.4,
+        y: screen > 1000 ? 0.7 : 1.3,
+        z: screen > 1000 ? -0.2 : -0.4,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: "#five_section",
+          start: "top bottom",
+          end: "top top",
+          scrub: true,
+          immediateRender: false,
+        },
+      });
   }, []);
-  /*
-   */
-  /*  */
 
   /* DEBUG MODEL3D */
   /*  useLayoutEffect(() => {
