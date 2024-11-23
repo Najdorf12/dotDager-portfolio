@@ -132,15 +132,9 @@ const Contact = () => {
             CONTACTO
           </h5>
           <p className="text-start text-balance text-stone-400 font-title text-sm lg:text-lg 2xl:text-xl  mt-6 xl:w-[70%] xl:mt-9">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "}
-            <span className="text-cyan-500">
-              {" "}
-              Rem qui atque impedit vero animialiquam assumenda dicta
-              perspiciatis exercitationem
-            </span>{" "}
-            maxime sapiente velit.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span className="text-cyan-600">Quia consequatur quibusdam </span> totam corrupti deserunt eius harum officia voluptates vitae doloremque.
           </p>
-          <ul className="flex flex-col gap-2 text-sm text-stone-400 xl:text-lg font-title2 mt-6 xl:gap-3 xl:mt-7 2xl:mt-9 2xl:text-xl ">
+          <ul className="flex flex-col gap-2 text-sm text-stone-400 xl:text-base font-title2 mt-6 xl:gap-3 xl:mt-7 2xl:mt-9 2xl:text-xl ">
             <a target="_blank" href="https://www.instagram.com/dager.32/">
               <li className="flex justify-start items-center gap-2 lg:gap-3">
                 <i className="bx bxl-instagram text-2xl text-cyan-500 xl:text-3xl 2xl:text-4xl"></i>
@@ -164,6 +158,7 @@ const Contact = () => {
             </a>
           </ul>
         </article>
+        <div className="hidden lg:flex w-[50%] h-[2px] bg-cyan-500 absolute lg:top-1 left-0 z-50 2xl:bottom-20"></div>
         <div className="hidden lg:flex w-[50%] h-[2px] bg-cyan-500 absolute lg:bottom-12 left-0 z-50 2xl:bottom-20"></div>
       </section>
     </>
