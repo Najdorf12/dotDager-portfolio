@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <section className="h-screen flex justify-start items-start w-full pl-[4%]  z-50 relative md:items-center">
+    <section className="h-screen flex justify-start items-start w-full pl-[4%]  z-50 relative md:items-center lg:z-20">
       <article className="flex flex-col justify-start items-start  gap-3  lg:w-[55%] mt-12 md:mt-0">
         <h1 className="font-title font-normal text-black text-[5rem] leading-[4rem] md:text-[8rem] md:leading-[6.2rem] 2xl:text-[14rem] 2xl:leading-[10.5rem]">
           DOT <br /> DAGER

@@ -20,7 +20,7 @@ const Pickles = () => {
     <>
       <section
         id="second_section"
-        className="w-full h-[120vh] relative flex justify-end items-start z-50"
+        className="w-full h-[120vh] relative flex justify-end items-start z-50 "
       >
         <figure className="absolute top-0 right-2 2xl:right-[5%] w-[100px] lg:w-[150px] 2xl:w-[200px] self-end">
           <img src={iconPickle} alt="icon-cat" />
