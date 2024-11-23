@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import { useEffect } from "react";
 const App = () => {
+  
   useEffect(() => {
     console.log(`/////DESING BY NAJDORF /////
       REFRESCAR PANTALLA PARA VER ANIMACION MOVILE`);
@@ -12,7 +13,7 @@ const App = () => {
 
   return (
     <ReactLenis root>
-      <main className="relative w-full bg-WHITE min-h-screen overflow-hidden ">
+      <main className="relative w-full bg-white min-h-screen overflow-hidden ">
         <div className="w-full h-screen fixed z-30 overflow-hidden lg:block">
           <Canvas>
             <Experience />
@@ -20,10 +21,6 @@ const App = () => {
         </div>
         <Home />
         <About />
-        {/* 
-      
-      <Details />
-      <Contact /> */}
       </main>
     </ReactLenis>
   );
