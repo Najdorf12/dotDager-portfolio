@@ -100,7 +100,7 @@ const Guitars = () => {
             El Templo del Guitar Hero
           </h5>
 
-          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal px-2 text-base text-stone-500 max-w-[800px] md:px-0 md:items-start md:justify-start md:text-start xl:max-w-[900px]   2xl:text-xl  ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal px-2 text-base text-stone-500 max-w-[800px] md:px-0 md:items-start md:justify-start md:text-start xl:max-w-[800px]   2xl:text-xl  ">
             Celebramos los solos épicos que nunca se parecieron al original pero
             que igual emocionaron a la abuela, los acordes desafinados y esos
             momentos mágicos en los que un rasgueo accidental resulta ser la
@@ -158,7 +158,7 @@ const Contact = () => {
             </a>
           </ul>
         </article>
-        <div className="hidden lg:flex w-[50%] h-[2px] bg-cyan-500 absolute lg:top-1 left-0 z-50 2xl:bottom-20"></div>
+       
         <div className="hidden lg:flex w-[50%] h-[2px] bg-cyan-500 absolute lg:bottom-12 left-0 z-50 2xl:bottom-20"></div>
       </section>
     </>
