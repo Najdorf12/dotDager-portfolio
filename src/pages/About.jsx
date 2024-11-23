@@ -38,7 +38,7 @@ const Pickles = () => {
             pepinillo es más que un simple encurtido: es un estilo de vida.{" "}
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base  lg:mt-5 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base   2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Pickles Society{" "}
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -72,7 +72,7 @@ const Cats = () => {
             del mes... de tu gato.
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-5 xl:w-[260px] text-base  2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px]  xl:w-[260px] text-base  2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Cat-astrophic Club
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -108,7 +108,7 @@ const Guitars = () => {
             segundos).
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base xl:mt-5 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               The pick of destiny
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
