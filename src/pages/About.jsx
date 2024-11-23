@@ -95,7 +95,7 @@ const Guitars = () => {
           <img src={iconGuitar} alt="icon-cat" />
         </figure>
 
-        <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 md:pl-[4%] 2xl:pl-[6%] lg:w-[55%] 2xl:w-[50%] 2xl:gap-12">
+        <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 md:pl-[4%] 2xl:pl-[6%]  lg:w-[55%] xl:pr-9 2xl:w-[50%] 2xl:gap-12">
           <h5 className="text-3xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start  xl:text-5xl 2xl:text-7xl ">
             El Templo del Guitar Hero
           </h5>
