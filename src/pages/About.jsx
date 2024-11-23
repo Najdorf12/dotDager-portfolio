@@ -31,14 +31,14 @@ const Pickles = () => {
             ¿Alguna vez un pepino te cambió la vida?
           </h5>
 
-          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] px-2 md:px-0 xl:pr-9 md:items-start md:justify-start md:text-start  2xl:text-xl 2xl:gap-9 ">
+          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] px-2 md:px-0 xl:pr-9 md:items-start md:justify-start md:text-start  2xl:text-xl  ">
             Aquí exploramos las razones por las que este vegetal merece un
             altar. Desde su rol como villano número uno en los comidas de niños
             hasta su título no oficial de 'Caviar de las ensaladas', el
             pepinillo es más que un simple encurtido: es un estilo de vida.{" "}
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base   2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-4 xl:w-[260px] text-base   2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Pickles Society{" "}
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -65,14 +65,14 @@ const Cats = () => {
             No te preocupes, están aquí para juzgarte, pero con amor.
           </h5>
 
-          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] md:items-start md:justify-start md:text-start px-2 md:px-0 xl:pr-9  2xl:text-xl 2xl:gap-9 ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px]  md:items-start md:justify-start md:text-start px-2 md:px-0 xl:pr-6  2xl:text-xl  ">
             Desde posar como si entendieran el concepto de impuestos hasta
             expertos en juicios silenciosos desde la repisa, estos peluditos lo
             tienen todo. ¿Tienes un gato? Felicidades, ahora eres el empleado
             del mes... de tu gato.
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px]  xl:w-[260px] text-base  2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-4  xl:w-[260px] text-base  2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Cat-astrophic Club
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -96,11 +96,11 @@ const Guitars = () => {
         </figure>
 
         <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 md:pl-[4%] 2xl:pl-[6%] lg:w-[55%] 2xl:w-[50%] 2xl:gap-12">
-          <h5 className="text-3xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start  xl:text-4xl 2xl:text-7xl ">
+          <h5 className="text-3xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start  xl:text-5xl 2xl:text-7xl ">
             El Templo del Guitar Hero
           </h5>
 
-          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal px-2 text-base text-stone-500 max-w-[800px] md:px-0 md:items-start md:justify-start md:text-start xl:max-w-[900px]   2xl:text-xl 2xl:gap-9 ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal px-2 text-base text-stone-500 max-w-[800px] md:px-0 md:items-start md:justify-start md:text-start xl:max-w-[900px]   2xl:text-xl  ">
             Celebramos los solos épicos que nunca se parecieron al original pero
             que igual emocionaron a la abuela, los acordes desafinados y esos
             momentos mágicos en los que un rasgueo accidental resulta ser la
@@ -108,7 +108,7 @@ const Guitars = () => {
             segundos).
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base xl:mt-4 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               The pick of destiny
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
