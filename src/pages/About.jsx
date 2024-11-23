@@ -27,18 +27,18 @@ const Pickles = () => {
         </figure>
 
         <article className="relative flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] xl:w-[50%] 2xl:gap-12  ">
-          <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center text-balance  md:text-start md:pr-4 xl:text-4xl 2xl:text-7xl  ">
+          <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center text-balance  md:text-start md:pr-4 xl:text-4xl 2xl:text-6xl  ">
             ¿Alguna vez un pepino te cambió la vida?
           </h5>
 
-          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] px-2 md:px-0 md:items-start md:justify-start md:text-start  2xl:text-3xl 2xl:gap-9 ">
+          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] px-2 md:px-0 md:items-start md:justify-start md:text-start  2xl:text-xl 2xl:gap-9 ">
             Aquí exploramos las razones por las que este vegetal merece un
             altar. Desde su rol como villano número uno en los comidas de niños
             hasta su título no oficial de 'Caviar de las ensaladas', el
             pepinillo es más que un simple encurtido: es un estilo de vida.{" "}
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-lg 2xl:text-xl 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Pickles Society{" "}
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -72,7 +72,7 @@ const Cats = () => {
             del mes... de tu gato.
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-lg 2xl:text-xl 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Cat-astrophic Club
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -108,7 +108,7 @@ const Guitars = () => {
             segundos).
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-lg 2xl:text-xl 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               The pick of destiny
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -131,7 +131,7 @@ const Contact = () => {
           <h5 className="text-5xl text-black font-title2 font-medium text-start xl:text-7xl 2xl:text-8xl  ">
             CONTACTO
           </h5>
-          <p className="text-start text-balance text-stone-400 font-title text-sm lg:text-lg 2xl:text-3xl  mt-6 2xl:mt-16">
+          <p className="text-start text-balance text-stone-400 font-title text-sm lg:text-lg 2xl:text-xl  mt-6 2xl:mt-16">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui
             atque impedit vero animi aliquam assumenda dicta perspiciatis
             exercitationem maxime sapiente velit.
