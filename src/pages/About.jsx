@@ -26,7 +26,7 @@ const Pickles = () => {
           <img src={iconPickle} alt="icon-cat" />
         </figure>
 
-        <article className="relative flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] xl:w-[50%] 2xl:gap-12  ">
+        <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] xl:w-[50%] 2xl:gap-12">
           <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center text-balance  md:text-start md:pr-4 xl:text-4xl  2xl:text-6xl  ">
             ¿Alguna vez un pepino te cambió la vida?
           </h5>
