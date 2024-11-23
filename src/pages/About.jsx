@@ -38,7 +38,7 @@ const Pickles = () => {
             pepinillo es más que un simple encurtido: es un estilo de vida.{" "}
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-4 xl:w-[260px] text-base   2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-4 xl:w-[260px] text-base   2xl:text-lg 2xl:mt-6 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Pickles Society{" "}
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -72,7 +72,7 @@ const Cats = () => {
             del mes... de tu gato.
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-4  xl:w-[260px] text-base  2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:mt-4  xl:w-[260px] text-base 2xl:mt-6  2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               Cat-astrophic Club
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -108,7 +108,7 @@ const Guitars = () => {
             segundos).
             <button
               id="box-glass2"
-              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base xl:mt-4 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
+              className="border-[2px] border-cyan-500 mt-3 flex justify-between pl-3 pr-1 items-center rounded-lg text-stone-600 font-medium font-title w-[220px] xl:w-[260px] text-base xl:text-base xl:mt-4 2xl:mt-6 2xl:text-lg 2xl:w-[280px] hover:border-stone-300 hover:text-stone-300 duration-300  group"
             >
               The pick of destiny
               <i className="bx bxs-pyramid text-cyan-500 text-3xl border-l-[2px] border-cyan-500 pl-1 2xl:text-4xl group-hover:border-stone-300 duration-500"></i>
@@ -131,16 +131,20 @@ const Contact = () => {
           <h5 className="text-5xl text-black font-title2 font-medium text-start xl:text-7xl 2xl:text-8xl  ">
             CONTACTO
           </h5>
-          <p className="text-start text-balance text-stone-400 font-title text-sm lg:text-lg 2xl:text-xl  mt-6 xl:mt-9">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui
-            atque impedit vero animi aliquam assumenda dicta perspiciatis
-            exercitationem maxime sapiente velit.
+          <p className="text-start text-balance text-stone-400 font-title text-sm lg:text-lg 2xl:text-xl  mt-6 xl:w-[70%] xl:mt-9">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "}
+            <span className="text-cyan-500">
+              {" "}
+              Rem qui atque impedit vero animialiquam assumenda dicta
+              perspiciatis exercitationem
+            </span>{" "}
+            maxime sapiente velit.
           </p>
           <ul className="flex flex-col gap-2 text-sm text-stone-400 xl:text-lg font-title2 mt-6 xl:gap-3 xl:mt-7 2xl:mt-9 2xl:text-xl ">
             <a target="_blank" href="https://www.instagram.com/dager.32/">
               <li className="flex justify-start items-center gap-2 lg:gap-3">
                 <i className="bx bxl-instagram text-2xl text-cyan-500 xl:text-3xl 2xl:text-4xl"></i>
-                https://www.instagram.com/dager.32/
+                https://www.instagram.com/dager.32
               </li>
             </a>
             <a target="_blank" href="https://github.com/MarianoVilla/DotDager">
