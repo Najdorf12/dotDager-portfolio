@@ -100,8 +100,8 @@ export function Scene(props) {
         },
       })
       .to(scene.current?.position, {
-        x: screen > 1000 ? -0.2 :  -3,
-        y: screen > 1000 ? 0 :  -0.7,
+        x: screen > 1000 ? -0.35 :  -3,
+        y: screen > 1000 ? 0.1 :  -0.7,
         z: screen > 1000 ? 0.2 :  -0.2,
         ease: "power1.out",
         scrollTrigger: {
@@ -114,7 +114,7 @@ export function Scene(props) {
       })
       .to(scene.current?.rotation, {
         x: screen > 1000 ? 0.32 : 0.4,
-        y: screen > 1000 ? 0.7 : 1.3,
+        y: screen > 1000 ? 0.72 : 1.3,
         z: screen > 1000 ? -0.2 : -0.4,
         ease: "power1.out",
         scrollTrigger: {
