@@ -31,7 +31,7 @@ const Pickles = () => {
             ¿Alguna vez un pepino te cambió la vida?
           </h5>
 
-          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] px-2 md:px-0 xl:pr-9 md:items-start md:justify-start md:text-start  2xl:text-xl  ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px]  md:items-start md:justify-start md:text-start px-2 md:px-0 xl:pr-6  2xl:text-xl   ">
             Aquí exploramos las razones por las que este vegetal merece un
             altar. Desde su rol como villano número uno en los comidas de niños
             hasta su título no oficial de 'Caviar de las ensaladas', el
