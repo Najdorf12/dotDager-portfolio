@@ -61,11 +61,11 @@ const Cats = () => {
         </figure>
 
         <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] xl:w-[50%] 2xl:gap-12">
-          <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start md:pr-4 xl:text-3xl 2xl:text-6xl ">
+          <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start md:pr-4 xl:text-4xl 2xl:text-5xl ">
             No te preocupes, están aquí para juzgarte, pero con amor.
           </h5>
 
-          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] md:items-start md:justify-start md:text-start px-2 md:px-0  2xl:text-3xl 2xl:gap-9 ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] md:items-start md:justify-start md:text-start px-2 md:px-0  2xl:text-xl 2xl:gap-9 ">
             Desde posar como si entendieran el concepto de impuestos hasta
             expertos en juicios silenciosos desde la repisa, estos peluditos lo
             tienen todo. ¿Tienes un gato? Felicidades, ahora eres el empleado
@@ -96,11 +96,11 @@ const Guitars = () => {
         </figure>
 
         <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 md:pl-[4%] 2xl:pl-[6%] lg:w-[55%] 2xl:w-[50%] 2xl:gap-12">
-          <h5 className="text-3xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start  xl:text-4xl 2xl:text-8xl ">
+          <h5 className="text-3xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start  xl:text-4xl 2xl:text-7xl ">
             El Templo del Guitar Hero
           </h5>
 
-          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal px-2 text-base text-stone-500 max-w-[800px] md:px-0 md:items-start md:justify-start md:text-start xl:max-w-[900px]  2xl:text-3xl 2xl:gap-9 ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal px-2 text-base text-stone-500 max-w-[800px] md:px-0 md:items-start md:justify-start md:text-start xl:max-w-[900px]   2xl:text-xl 2xl:gap-9 ">
             Celebramos los solos épicos que nunca se parecieron al original pero
             que igual emocionaron a la abuela, los acordes desafinados y esos
             momentos mágicos en los que un rasgueo accidental resulta ser la
@@ -128,7 +128,7 @@ const Contact = () => {
         className="w-full h-screen relative flex justify-start items-start pt-[2%]  z-50"
       >
         <article className="relative  flex flex-col  justify-start items-start py-6  w-[96%] pl-[4%] md:w-[700px]  xl:w-[800px] xl:pl-12 xl:py-12  2xl:pl-24 2xl:py-20 2xl:w-[1200px] rounded-r-lg ">
-          <h5 className="text-5xl text-stone-600 font-title2 font-medium text-start xl:text-8xl 2xl:text-9xl  ">
+          <h5 className="text-5xl text-black font-title2 font-medium text-start xl:text-7xl 2xl:text-8xl  ">
             CONTACTO
           </h5>
           <p className="text-start text-balance text-stone-400 font-title text-sm lg:text-lg 2xl:text-3xl  mt-6 2xl:mt-16">
