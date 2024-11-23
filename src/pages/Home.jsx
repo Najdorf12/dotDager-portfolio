@@ -5,7 +5,7 @@ const Home = () => {
         <h1 className="font-title font-normal text-black text-[5rem] leading-[4rem] md:text-[8rem] md:leading-[6.2rem] 2xl:text-[12rem] 2xl:leading-[9.2rem]">
           DOT <br /> DAGER
         </h1>
-        <p className="mt-3 font-title font-medium text-stone-600 md:mt-3 text-balance md:pl-35 md:text-xl md:pl-3 xl:text-xl 2xl:text-3xl 2xl:pl-6 2xl:mt-4 ">
+        <p className="mt-3 font-title font-medium text-stone-600 md:mt-3 text-balance md:pl-35 md:text-xl md:pl-3 xl:text-xl 2xl:text-2xl 2xl:pl-6 2xl:mt-3 ">
           The fucking best programmer ever & serial shit joke teller
           <br />
         </p>
