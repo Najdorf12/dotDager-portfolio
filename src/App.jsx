@@ -7,7 +7,7 @@ import { useEffect } from "react";
 const App = () => {
   useEffect(() => {
     console.log(`/////DESING BY NAJDORF /////
-      REFRESCA LA PANTALLA PARA VER LA ANIMACION MOVILE, LAGARTO`);
+      REFRESCAR PANTALLA PARA VER ANIMACION MOVILE`);
   }, []);
 
   return (

@@ -26,12 +26,12 @@ const Pickles = () => {
           <img src={iconPickle} alt="icon-cat" />
         </figure>
 
-        <article className="relative flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] 2xl:w-[50%] 2xl:gap-12  ">
+        <article className="relative flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] xl:w-[50%] 2xl:gap-12  ">
           <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center text-balance  md:text-start md:pr-4 xl:text-4xl 2xl:text-7xl  ">
             ¿Alguna vez un pepino te cambió la vida?
           </h5>
 
-          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] px-2 md:px-0 md:items-start md:justify-start md:text-start  2xl:text-3xl 2xl:gap-9 ">
+          <p className="font-title flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] px-2 md:px-0 md:items-start md:justify-start md:text-start  2xl:text-3xl 2xl:gap-9 ">
             Aquí exploramos las razones por las que este vegetal merece un
             altar. Desde su rol como villano número uno en los comidas de niños
             hasta su título no oficial de 'Caviar de las ensaladas', el
@@ -60,12 +60,12 @@ const Cats = () => {
           <img src={iconCat} alt="icon-cat" />
         </figure>
 
-        <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] 2xl:w-[50%] 2xl:gap-12">
+        <article className="relative text-balance flex flex-col h-full justify-center gap-6 items-center md:items-start z-50 lg:w-[55%] xl:w-[50%] 2xl:gap-12">
           <h5 className="text-2xl font-title2 text-[#c4c4c4] font-medium text-center  md:text-start md:pr-4 xl:text-3xl 2xl:text-6xl ">
             No te preocupes, están aquí para juzgarte, pero con amor.
           </h5>
 
-          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] md:items-start md:justify-start md:text-start px-2 md:px-0  2xl:text-3xl 2xl:gap-9 ">
+          <p className="font-title  flex flex-col justify-center items-center  text-center font-normal  text-base text-stone-500 max-w-[800px] 2xl:max-w-[900px] md:items-start md:justify-start md:text-start px-2 md:px-0  2xl:text-3xl 2xl:gap-9 ">
             Desde posar como si entendieran el concepto de impuestos hasta
             expertos en juicios silenciosos desde la repisa, estos peluditos lo
             tienen todo. ¿Tienes un gato? Felicidades, ahora eres el empleado
